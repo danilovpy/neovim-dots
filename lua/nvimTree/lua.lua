@@ -47,7 +47,7 @@ end
 
 vim.api.nvim_set_keymap(
     "n",
-    "<C-n>",
+    "<F2>",
     ":NvimTreeToggle<CR>",
     {
         noremap = true,

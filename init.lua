@@ -8,10 +8,10 @@ require("bufferline.lua")
 require("statusline.lua")
 require("telescope-nvim.lua")
 
+
 -- lsp
 require("nvim-lspconfig.lua")
 require("nvim-compe.lua")
-
 require("gitsigns.lua")
 
 require "colorizer".setup()
@@ -24,7 +24,7 @@ cmd "colorscheme base16-onedark"
 cmd "syntax enable"
 cmd "syntax on"
 
-g.auto_save = 1
+g.auto_save = 0
 g.indentLine_enabled = 1
 g.indentLine_char_list = {"▏"}
 
@@ -72,3 +72,4 @@ augroup NvimTree
  ]],
     false
 )
+
