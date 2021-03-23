@@ -62,6 +62,8 @@ cmd("hi NvimTreeFolderIcon guifg = #fe8019")
 cmd("hi NvimTreeFolderName guifg = #504945")
 cmd("hi NvimTreeIndentMarker guifg=#665c54")
 
+cmd("hi Normal guibg=NONE ctermbg=NONE")
+
 require("nvim-autopairs").setup()
 
 require("lspkind").init(
