@@ -55,3 +55,6 @@ key_mapper('n', '<leader>9', '9gt')
 key_mapper('n', '<C-Left>', ':tabprevious<CR>')
 key_mapper('n', '<C-Right>', ':tabnext<CR>')
 key_mapper('n', '<leader><leader>', ':noh<CR>')
+
+g.python3_host_prog = '/home/sergey/.pyenv/versions/py3nvim/bin/python'
+
